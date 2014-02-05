@@ -1,1 +1,0 @@
-Very simplate template-processor

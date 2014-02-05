@@ -1,0 +1,12 @@
+Very simple string-template-interpolation
+
+#+BEGIN_SRC R
+  #require('devtools')
+  #install_github("template.R", "michelk")
+  require('template')
+  render("uno $zwei$ tres", list(zwei = "dos"))
+#+END_SRC
+
+#+RESULTS:
+: uno dos tres
+
